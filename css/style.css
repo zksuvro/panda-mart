@@ -11,6 +11,7 @@
 .price{
     color: #FF136F;
 }
+
 .buy-now-btn{
     background-image: linear-gradient(to bottom, #FF136F 0%, #FF136F 100%);
     border: none;
@@ -18,4 +19,63 @@
     padding: 9px 25px;
     color: #fff;
     cursor: pointer;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.cat1{
+    background-image: linear-gradient(to bottom, orange 0%, orange 100%);
+}
+.cat2{
+    background-image: linear-gradient(to right, #ff136f 0%, #ff136f 0%);
+}
+.cat3{
+    background-image: linear-gradient(to right, blue 0%, blue 0%);
+}
+.categories h1{
+    color: #fff;
+}
+.categories img{
+    width: 100px;
+}
+
+.buy-now-sbtn{
+    background-image: linear-gradient(to bottom, #FF136F 0%, #FF136F 100%);
+    border: none;
+    border-radius: 8px;
+    /* padding: 9px 15px; */
+    width: 50%;
+    margin: auto;
+    color: #fff;
+    cursor: pointer;
+}
+.productbg{
+    background-color: #F8F8F8;
+    padding: 50px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightslategray;
+}
+.card img{
+    margin: 60px 0;
+}
+.card-body .buy-now-btn{
+    margin-bottom: 40px;
+}
+.categoriestxt{
+    padding-bottom: 30px;
+}
+.pfooter{
+    background-color: #FEEAE9;
+    height: 420px;
+    border-radius: 15px;
+}
+.inpemail{
+    width: 450px;
+    height: 40px;
+}
+footer{
+    margin-top: 100px;
 }
